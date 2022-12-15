@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import joblib
 
-model = joblib.load(r'C:\Users\Moudhaffer\OneDrive\Desktop\Dataset\CKD\NBpipe.joblib')
+model = joblib.load(r'NBpipe.joblib')
 columns = ['ur_specific_gravity', 'ur_albumin', 'blood glucose random',
            'serum creatinine', 'hemoglobin', 'packed cell volume',
            'red blood cell count', 'hypertension', 'diabetes']
